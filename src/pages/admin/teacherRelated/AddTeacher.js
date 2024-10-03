@@ -51,6 +51,7 @@ const AddTeacher = () => {
     event.preventDefault();
     setLoader(true);
     dispatch(registerUser(fields, role));
+    kgyf;
   };
 
   useEffect(() => {
